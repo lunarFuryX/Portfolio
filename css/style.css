@@ -52,6 +52,21 @@
   {
     color: #ffb727;
   }
+  .skill-item
+  {
+    padding: 10px 16px;
+    border: 2px solid #ffb727;
+    border-radius: 999px;
+    background-color: #fff4df;
+    color: #5a3a12;
+    text-align: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  .skill-item:hover
+  {
+    background-color: #ffb727;
+    color: #ffffff;
+  }
   .btn-scroll
   {
     transition: 0.4s;
