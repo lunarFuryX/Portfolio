@@ -1,0 +1,40 @@
+    .container1 {
+    position: relative;
+    
+  }
+  
+  .image1 {
+    display: block;
+  }
+  .overlay1 {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    padding: 16px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  .container1:hover .overlay1 {
+    opacity: 1;
+  }
+  .container2:hover .overlay1 {
+    opacity: 1;
+  }
+  .container3:hover .overlay1 {
+    opacity: 1;
+  }
+  .container4:hover .overlay1 {
+    opacity: 1;
+  }
+  .container5:hover .overlay1 {
+    opacity: 1;
+  }
+  .container6:hover .overlay1 {
+    opacity: 1;
+  }
