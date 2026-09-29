@@ -1,2 +1,0 @@
-# demo-portfolio
-Personal portfolio
