@@ -1,0 +1,103 @@
+.navbar-nav
+  {
+    margin: auto;
+  }
+  #Home
+  {
+    background-image: url(../images/1.jpg);
+    height: calc(100vh);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .name
+  {
+    font-family: 'Fredoka One', cursive;
+    padding-top: 250px;
+  }
+  .nameabout
+  {
+    font-family: 'Inconsolata', monospace;
+    font-size:22px;
+  }
+  .profile-container
+  {
+    height: calc(100vh);
+  }
+  .profile-container p
+  {
+    margin-top: -24px;
+    font-size: large;
+    font-style: italic;
+  }
+  #about
+  {
+    background-color: white;
+  }
+  #resume
+  {
+    background-color: white
+  }
+  .aboutHeader
+  {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 52px;
+    text-shadow: 2px 2px 1px #8d8d8d;
+  }
+  .card1:hover
+  {
+    border-color: #ffb727;
+  }
+  .card-title:hover
+  {
+    color: #ffb727;
+  }
+  .btn-scroll
+  {
+    transition: 0.4s;
+    color: rgba(255, 255, 255, 0.6);
+    animation: up-down 1s ease-in-out infinite alternate-reverse both;
+   
+  }
+  .img-hover-zoom {
+     /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+.socialmedia
+{ 
+  margin-left: 12px;
+  padding-top: 12px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 48px;
+  height: 46px;
+  background: #fff4df;
+}
+.socialmedia:hover
+{
+  
+  background: #ffb727;
+}
+
+.socialmediaLast
+{
+  margin-left: 12px;
+  padding-top: 12px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 48px;
+  height: 46px;
+  background:orange;
+}

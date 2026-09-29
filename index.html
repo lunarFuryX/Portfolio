@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sanket</title>
+        <link rel="stylesheet" href="css/CardInfoPortfolio.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inconsolata&family=Staatliches&display=swap" rel="stylesheet">
+        <style>
+            #home{
+                background-image:url("img/darkbackgroundimage.jpg");
+                height: calc(100vh);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .name{
+                font-family: 'Sofia', cursive;
+                padding-top: 290px;
+            }
+            .profile-container{
+                height:calc(90vh);
+                display:flex;
+                background-color: black;
+                opacity:0.6;
+            }
+            .profile-container p
+            {
+              margin-top: -24px;
+              font-size: large;
+              font-style: italic;
+            }
+            #about
+            {
+              background-color: white;
+            }
+            #resume
+            {
+              background-color: white;
+            }
+            .aboutHeader
+            {
+              font-family: 'Alfa Slab One', cursive;
+              font-size: 52px;
+            }
+            .card:hover
+            {
+              border-color: #ffb727;
+            }
+            .card-title:hover
+            {
+              color: #ffb727;
+            }
+            nav ul li:hover{
+              background: #4d310d;
+            }
+            
+        </style>
+    </head>
+    <body>
+       <section id='home' style="margin-bottom: 30px;" >
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+             
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav m-auto ">
+                  <li class="nav-item  ">
+                    <a class="nav-link active " aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Resume">Resume</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="container-fluid my_container  text-center text-white ">
+              <h1 class="name ">Sanket Dhekale</h1>
+              <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Computer engineer,Webdevloper,Game Devloper</h3>
+          </div>
+       </section>
+       
+        <section id="About" style="margin-bottom: 30px; padding-top: 60px;" >
+          <div class="section-title text-center mt-3">
+            <h1 class="mb-4">ABOUT ME</h1>
+            <p style="font-size: 20px;">Enthusiastic Developer</p>
+          </div>
+          <div class="container mt-3">
+            <div class="row">
+              <div class="col-lg-5 ml-3">
+                <img src="img/pexels-photo-718261.jpeg" alt="prfile-img" width="100%">
+              </div>
+              <div class="col-lg-7 ">
+                <div class="row mt-5">
+                  <div class="col-lg-6 ">
+                    <ul style="font-size:21px;">
+                      <li><b>Name: </b> Sanket Dhekale</li>
+                      <li><b>Website: </b> www.sankoo.com</li>
+                      <li><b>Phone: </b> 1234567890</li>
+                      <li><b>City: </b> Chiplun</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul style="font-size:21px;">
+                      <li><b>Age:</b> 20</li>
+                      <li><b>Degree:</b> Btech Computer science</li>
+                      <li><b>Email:</b> sankoo@gmail.com</li>
+                      <li><b>Freelance:</b> Available</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6 mt-5">
+                      <div class="row mt-3">
+                        <div class="col-lg-3">
+                          <i class='bx bx-smile' style='color:#34c01f; font-size: 87px; '  ></i>
+                        </div>
+                        <div class="col-lg-9 ">
+                          <h1>65</h1>
+                          <p style="overflow-wrap: anywhere;"><b>Happy Clients</b></p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6  mt-5">
+                    <div class="row mt-3">
+                      <div class="col-lg-3">
+                        <i class='bx bx-printer' style='color:#276fc4;font-size: 87px;'  ></i>
+                      </div>
+                      <div class="col-lg-9">
+                        <h1>85</h1>
+                        <p style="overflow-wrap: anywhere;"><b>Projects</b></p>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="row mt-3">
+                      <div class="col-lg-3">
+                        <i class='bx bx-stopwatch' style='color:#21a3d6; font-size: 87px;'  ></i>
+                      </div>
+                      <div class="col-lg-9">
+                        <h1>12</h1>
+                        <p style="overflow-wrap: anywhere;"><b>Years of Experience</b></p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="row mt-3">
+                    <div class="col-lg-3">
+                      <i class='bx bxs-trophy' style='color:#d8df4a; font-size: 87px'  ></i>
+                    </div>
+                    <div class="col-lg-9">
+                      <h1>15</h1>
+                      <p style="overflow-wrap: anywhere;"><b>Awards</b></p>
+                    </div>
+                  </div> 
+                </div>
+                <div class="col-lg-12  mt-5" style="margin-top: 30px;">
+                 <div class="row">
+                   <div class="col-lg-6">
+                    <p> <b> HTML</b></p>
+                   </div>
+                   <div class="col-lg-6" style="text-align: right;">
+                    <p>100%</p>
+                  </div>
+                  <div class="progress pl-0">
+                    <div class="progress-bar bg-warning pl-0"  style="width: 100%" ></div>
+                  </div>
+                 </div>
+                </div>
+                <div class="col-lg-12" style="margin-top: 30px;">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <p> <b> CSS</b></p>
+                    </div>
+                    <div class="col-lg-6" style="text-align: right;">
+                     <p>95%</p>
+                   </div>
+                   <div class="progress">
+                     <div class="progress-bar bg-warning"  style="width: 95%" ></div>
+                   </div>
+                  </div>
+                 </div>
+                 <div class="col-lg-12" style="margin-top: 30px;">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <p> <b> JAVASCRIPT</b></p>
+                    </div>
+                    <div class="col-lg-6" style="text-align: right;">
+                     <p>99%</p>
+                   </div>
+                   <div class="progress">
+                     <div class="progress-bar bg-warning" role="progressbar" style="width: 99%"></div>
+                   </div>
+                  </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="Resume" style="margin-bottom: 30px; padding-top: 60px;">
+          <div class="section-title text-center mt-4">
+            <h1 class="mb-3 ">Resume</h1>
+            <p class="nameabout"> <b>Enthusiastic Learner,Developer</b></p>
+            <div class="container mt-4">
+              <div class="row" style="padding-top: 10px;">
+                <div class="col-lg-6" style="text-align: left;">
+                  <h1 style="font-size: 28px;padding-left: 5px;" >Summary</h1>
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                    </div>
+                    <div class="col-lg-11 mt-2">
+                        <p style="font-size: 16px; color: #4aa1c9; ">ALICE BARKLEY</p>
+                        <p style="font-style: italic;font-size: 17px;">Innovative and deadline-driven Graphic 
+                          Designer with 3+ years of experience designing 
+                          and developing user-centered digital/print marketing 
+                          material from initial concept to final, polished deliverable.</p>
+                          <ul>
+                            <li>Portland par 127,Orlando, FL</li>
+                            <li>(123) 456-7891</li>
+                            <li>alice.barkley@example.com</li>
+                          </ul>
+                    </div>
+                      <div col-lg-12>
+                        <h1 style="font-size: 28px;padding-left: 5px;padding-top: 7px;" >Education</h1>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-1 mt-1">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                     
+                        
+                        
+                        
+                    </div>
+                    <div class="col-lg-11 mt-2">
+                      <p style="font-size: 16px; color: #4aa1c9; ">MASTER OF COMPUTER SCIENCE AND ENGINEERING</p>
+                      <h1 style="font-size: 16px;background: #eef0f2;padding: 5px 15px;display: inline-block;font-weight: 600;margin-bottom: 10px;">
+                        2015-16
+                        </h1>
+                        <p style="font-style: italic;font-size: 17px;padding-top: 14px;">College of Engineering,Pune</p>
+                        <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis
+                           et quis Eius vel ratione eius unde vitae rerum voluptates asperiores 
+                           voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+                           
+                    </div>
+                    <div class="col-lg-1 mt-1">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                    </div>
+                    <div class="col-lg-11 mt-2">
+                      <p style="font-size: 16px; color: #4aa1c9; ">BACHELOR OF COMPUTER SCIENCE AND ENGINEERING</p>
+                      <h1 style="font-size: 16px;background: #eef0f2;padding: 5px 15px;display: inline-block;font-weight: 600;margin-bottom: 10px;">
+                        2010-14
+                        </h1>
+                        <p style="font-style: italic;font-size: 17px;padding-top: 14px;">DKTE Society's textile and Engineering Institute,Ichalkaranji</p>
+                        <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae 
+                          reiciendis et quis Eius vel ratione eius unde vitae rerum 
+                          voluptates asperiores voluptatem Earum molestiae consequatur 
+                          neque etlon sader mart dila</p>
+                    </div>
+                  </div>
+                 
+                </div>
+                <div class="col-lg-6" style="text-align: left;">
+                  <h1 style="font-size: 28px;">Professional Experience</h1>
+                  <div class="row">
+                    <div class="col-lg-1 mt-1">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                      <img src="img/line.png" alt="No image" style="width: 100%;">
+                     
+                    </div>
+                    <div class="col-lg-11 mt-2">
+                      <p style="font-size: 16px; color: #4aa1c9; ">SENIOR GRAPHIC DESIGN SPECIALIST</p>
+                      <h1 style="font-size: 16px;background: #eef0f2;padding: 5px 15px;display: inline-block;font-weight: 600;margin-bottom: 10px;">
+                        2021 - Present
+                        </h1>
+                        <p style="font-style: italic;font-size: 17px;padding-top: 14px;">Experion, New York</p>
+                        <ul>
+                          <li>Lead in the design, development, and implementation of the 
+                            graphic, layout, and production communication materials</li><br>
+                          <li>Delegate tasks to the 7 members of the design team and 
+                            provide counsel on all aspects of the project.</li><br>
+                          <li>Supervise the assessment of all graphic materials in order 
+                            to ensure quality and accuracy of the design</li><br>
+                          <li>Oversee the efficient use of production project 
+                            budgets ranging from $2,000 - $25,000</li>
+                        </ul>
+                        <p style="font-size: 16px; color: #4aa1c9; padding-top: 40px;">GRAPHIC DESIGN SPECIALIST</p>
+                      <h1 style="font-size: 16px;background: #eef0f2;padding: 5px 15px;display: inline-block;font-weight: 600;margin-bottom: 10px;">
+                        2017-20
+                        </h1>
+                        <p style="font-style: italic;font-size: 17px;padding-top: 14px;">Stepping Stone Advertising, New York, NY</p>
+                        <ul>
+                          <li>Developed numerous marketing programs (logos, brochures,
+                            infographics, presentations, and advertisements).</li>
+                          <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                          <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                          <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        
+        <section id="Services" style="margin-bottom: 30px; padding-top: 60px;">
+          <div class="section-title text-center mt-4">
+            <h1 class="mb-4 ">Services</h1>
+            <p class="nameabout"> <b>Enthusiastic Developer</b></p>
+          </div>
+          <div class="container mt-4">
+            <div class="row" style="padding-top: 10px;">
+              <div class="col-lg-3" style="padding-left: 0px;">
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 17rem; height: 25rem;">
+                  <div style="margin: 17px 83px;padding-top: 17px;display: inline-block;text-align: center;border-radius: 50%;width: 72px;
+                  height: 72px;
+                  background: #fff4df;">
+                  <i class='bx bx-basketball' style="color:#6ac2eb;font-size: 40px;"></i>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" style="text-align: center;">Logo Designing</h5>
+                    <p class="card-text"  style="text-align: center; padding-top: 18px;padding-bottom: 10px;">At the heart of your business’s branding is your logo. 
+                      We Build immediately identifiable original designs that can be held 
+                      consistent with all your online and offline marketing.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3" style="padding-left: 19px;">
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 17rem; height: 25rem;">
+                  <div style="margin: 17px 83px;padding-top: 17px;padding-bottom: 12px;display: inline-block;text-align: center;border-radius: 50%;width: 72px;
+                  height: 72px;
+                  background: #fff4df;">
+                  <i class='bx bx-file'style="color:#f5c769;font-size: 40px;"></i>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" style="text-align: center;">Poster Designing</h5>
+                    <p class="card-text" style="text-align: center;padding-top: 18px;padding-bottom: 10px;">Posters should grasp your public immediately assuring that 
+                      the most important information (whatever your campaign may be) is loud and clear. 
+                      Our posters are created to seize your audience’s attention.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3" style="padding-left: 38px;">
+                <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 17rem; height: 25rem;">
+                  <div style="margin: 17px 83px;padding-top: 17px;display: inline-block;text-align: center;border-radius: 50%;width: 72px;
+                  height: 72px;
+                  background: #fff4df;">
+                  <i class='bx bx-tachometer'style="color:#f5c769;font-size: 40px;"></i>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" style="text-align: center;">Brochure Designing</h5>
+                    <p class="card-text" style="text-align: center;padding-top: 18px;padding-bottom: 10px;">In the digital age, brochures are usually considered as 
+                      the old medium, but, they are just as important. We believe that there’s 
+                      nothing really like a wonderful brochure design.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3" style="padding-left: 58px;">
+                <div class="card card1 shadow p-3 mb-5 bg-white rounded" style="width: 17rem; height: 25rem;">
+                  <div style="margin: 17px 83px;padding-top: 17px;display: inline-block;text-align: center;border-radius: 50%;width: 72px;
+                  height: 72px;
+                  background: #fff4df;">
+                  <i class='bx bx-world'style="color:#f5c769;font-size: 40px;"></i>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title card1-title" style="text-align: center;">Newsletter Designing</h5>
+                    <p class="card-text" style="text-align: center;padding-top: 18px;padding-bottom: 10px;">We have a team of expert graphics and website designers 
+                      who provide newsletter designing services as per your needs. They have an 
+                      extensive expertise and skill in emailer designing.</p>
+                  </div>
+                </div>
+              </div>
+              
+            
+            </div>
+          </div>
+    
+        </section>
+        <section id="Portfolio"  style="margin-bottom: 30px;padding-top: 60px;">
+          <div class="section-title text-center mt-4">
+            <h1 class="mb-4 ">Portfolio</h1>
+            <p class="nameabout"> <b>Welcome to my Gallary</b></p>
+          </div>
+          <div class="container mt-4 mb-4">
+            <div class="row" style="padding-top: 10px;">
+              <div class="col-lg-4">
+                <div class="col-lg-12"style="padding-top: 25px;">
+                  <div class="card" style="width: 22rem;">
+                    <div class="img-hover-zoom">
+                      <div class="container1" style=" padding-left: 0;padding-right: 0;">
+                        <img src="img/pexels-andrei-tanase-1271620.jpg" alt="Cimage" width="100%" class="image1">
+                        <div class="overlay1">App1</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-lg-12" style="padding-top: 25px;">
+                  <div class="card">
+                    <div class="img-hover-zoom">
+                      <div class="container2" style=" padding-left: 0;padding-right: 0;">
+                        <img src="img/alexander-popov-3InMDrsuYrk-unsplash.jpg" alt="Image404" width="100%" style="height: 42vh;" class="image1">
+                        <div class="overlay1">App2</div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="col-lg-12" style="padding-top: 25px;">
+                  <div class="card" style="width: 356px;">
+                    <div class="img-hover-zoom">
+                      <div class="container3" style=" padding-left: 0;padding-right: 0;">
+                        <img src="img/luke-ellis-craven-yCsk1q2Eq0o-unsplash.jpg" alt="Image2" width="100%" class="image1">
+                        <div class="overlay1">Web1</div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12" style="padding-top: 25px;">
+                  <div class="card">
+                    <div class="img-hover-zoom">
+                      <div class="container4" style=" padding-left: 0;padding-right: 0;">
+                        <img src="img/pexels-irina-iriser-1707215.jpg" alt="Image3" width="100%" style="height: 73vh;" class="image1">
+                        <div class="overlay1">Web2</div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="col-lg-12" style="padding-top: 25px;">
+                  <div class="card">
+                    <div class="img-hover-zoom">
+                      <div class="container5" style=" padding-left: 0;padding-right: 0;">
+                        <img src="img/pexels-warren-blake-1477459.jpg"  width="100%" alt="Images3" class="image1">
+                        <div class="overlay1">Card1</div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12" style="padding-top: 25px;">
+                  <div class="card">
+                    <div class="img-hover-zoom">
+                      <div class="container6" style=" padding-left: 0;padding-right: 0;">
+                        <img src="img/nathan-anderson-7TGVEgcTKlY-unsplash.jpg" alt="Image404" width="100%" style="height: 40vh;" class="image1">
+                        <div class="overlay1">card2</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <section id=Contact  style="margin-bottom: 30px;padding-top: 60px;">
+          <div class="section-title text-center" style="margin-top: 40px;">
+            <h1 class="mb-4 ">Contact</h1>
+            <p class="nameabout"> <b>We are always here to help you</b></p>
+          </div>
+          <div class="container  mb-4" style="margin-top: 40px;">
+            <div class="row" style="padding-top: 10x;">
+              <div class="col-lg-6">
+               <div class="row">
+                 <div class="col-lg-12">
+                  <div class="card mb-3 shadow p-3 mb-5 bg-white rounded" style="height: 13rem;">
+                    <div style="margin: 12px 235px;
+                    padding-top: 12px;
+                    display: inline-block;
+                    text-align: center;
+                    border-radius: 50%;
+                    width: 52px;
+                    height: 58px;
+                    background: #fff4df;">
+                      <i class='bx bx-share-alt' style=' font-size: 33px;color: #ffb727;'  ></i>
+                    </div>
+                    <h5 style="text-align: center;font-weight: bolder;color:#777777;">Social Profiles</h5>
+                    <div style="margin-left: 101px; padding-top: 11px;">
+                      <div class="socialmedia">
+                        <a href="">
+                          <i class='bx bxl-twitter' style=' font-size: 24px;color:grey'  ></i></a> 
+                      </div>
+                      <div class="socialmedia">
+                        <a href=""><i class='bx bxl-facebook' style=' font-size: 24px;color:grey' ></i></a>
+                      </div>
+                      <div class="socialmedia">
+                        <a href=""><i class='bx bxl-instagram' style=' font-size: 24px;color:grey' ></i></a>
+                      </div>
+                      <div class="socialmedia">
+                        <a href=""><i class='bx bxl-skype ch' style=' font-size: 24px;color:grey' ></i></a>
+                      </div>
+                      <div class="socialmedia">
+                        <a href=""><i class='bx bxl-linkedin-square' style=' font-size: 24px;color:grey' ></i></a>
+                      </div><br><br>
+                    </div>
+                  </div>
+                 </div>
+                 <div class="col-lg-6">
+                  <div class="card mb-3 shadow p-3 mb-5 bg-white rounded" style="height: 30vh;margin-top: -26px;">
+                    <div style="margin: 12px 86px;
+                    padding-top: 12px;
+                    display: inline-block;
+                    text-align: center;
+                    border-radius: 50%;
+                    width: 60px;
+                    height: 58px;
+                    background: #fff4df;">
+                      <i class='bx bx-envelope' style=' font-size: 35px;color: #ffb727;'></i>
+                    </div>
+                    <h5 style="text-align: center;font-weight: bolder;color:#777777;">Social Profiles</h5>
+                    <p style="text-align: center;color:#777777;">stuxnetpower@gmail.com</p>
+                  </div>
+    
+                 </div>
+                 <div class="col-lg-6">
+                  <div class="card mb-3 shadow p-3 mb-5 bg-white rounded" style="height: 30vh;margin-top: -26px;">
+                    <div style="margin: 12px 86px;
+                    padding-top: 12px;
+                    display: inline-block;
+                    text-align: center;
+                    border-radius: 50%;
+                    width: 60px;
+                    height: 58px;
+                    background: #fff4df;">
+                     <i class='bx bx-phone-call'style=' font-size: 33px;color: #ffb727;'></i>
+                    </div>
+                    <h5 style="text-align: center;font-weight: bolder;color:#777777;">Social Profiles</h5>
+                    <p style="text-align: center;color:#777777;">+910987654321</p>
+                  </div>
+                </div>
+               </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="row shadow p-3 mb-5 bg-white rounded" style="border-style: solid; border-width: 1px;border-color:#ecebeb;">
+                  <div class="col-lg-6">
+                      <input type="text" class="form-control"placeholder="  Your Name" style="margin-left: 2vh;margin-top: 4vh;width: 40vh;height: 7vh; border-color:e8e3e3; border-width: 1px;">
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control" placeholder="  Your Email" style="margin-top: 4vh;width: 40vh;height: 7vh; border-color:e8e3e3; border-width: 1px;">
+                  </div>
+                  <div class="col-lg-12">
+                    <input type="text"  class="form-control" placeholder="Subject" style="margin-left: 2vh;width: 506px;height: 7vh; margin-top: 17px;border-color:e8e3e3; border-width: 1px;">
+                  </div>
+                  <div class="col-lg-12">
+                    <textarea cols="69" rows="6" style="margin-left: 2vh;margin-top: 17px;border-color:e8e3e3; border-width: 1px;border-color: lightgray;" placeholder="  Message"></textarea>
+                  </div>
+                  <div>
+                    <button type="button" class="btn btn-warning" style="margin-bottom: 22px;margin-top: 10px;color: white;width: 26vh;height: 8vh;margin-left: 27vh;">
+                                <b>Send Message</b></button>
+                  </div>
+                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section style="padding-top: 60px; background-image: url(img/breno-machado-in9-n0JwgZ0-unsplash.jpg);height: 25rem;background-size: cover;">
+          <h3 class="text-white" style="font-size: 39px;padding-top: 24px; text-align: center;font-family: 'Satisfy', cursive;font-weight:bolder;">Sanket Dhekale</h3>
+          <p class="text-white text-center"style="font-style: italic;">Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+          <div style="margin-left: 101px; padding-top: 19px;padding-right: 116px; text-align: center;margin-bottom: 12px;">
+            <div class="socialmediaLast">
+              <a href="">
+                <i class='bx bxl-twitter' style=' font-size: 24px;color:white'  ></i></a> 
+            </div>
+            <div class="socialmediaLast">
+              <a href=""><i class='bx bxl-facebook' style=' font-size: 24px;color:white' ></i></a>
+            </div>
+            <div class="socialmediaLast">
+              <a href=""><i class='bx bxl-instagram' style=' font-size: 24px;color:white' ></i></a>
+            </div>
+            <div class="socialmediaLast">
+              <a href=""><i class='bx bxl-skype ch' style=' font-size: 24px;color:white' ></i></a>
+            </div>
+            <div class="socialmediaLast">
+              <a href=""><i class='bx bxl-linkedin-square' style=' font-size: 24px;color:white' ></i></a>
+            </div><br><br>
+          </div>
+    
+          <p class="text-white" style=" margin-bottom: 0; text-align: center;">© Copyright <span style="font-weight: bold;">Sanket</span>. All Rights Reserved</p>
+          <p class="text-white text-center">Designed by <span><a href="" style="color: orange; text-decoration: none;">Stuxnet</a></span></p>
+          <a href="#Home"> <i class='bx bxs-chevron-up-square' style='color:orange;float: right;font-size: 56px;
+            padding-right: 10px;'></i></a>
+        </section>
+    
+
+        
+           
+       
+          
+    </body>
+</html>
